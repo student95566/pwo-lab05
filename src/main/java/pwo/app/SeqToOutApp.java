@@ -21,7 +21,7 @@ import pwo.utils.SequenceTools;
  }
 
 @Override
- protected boolean wirteSeq() {
+ protected boolean writeSeq() {
 
  System.out.println(SequenceTools.getTermsAsColumn(
  seqType.getGenerator(), from, to));
@@ -40,7 +40,7 @@ import pwo.utils.SequenceTools;
  return;
  }
 
- wirteSeq();
+ writeSeq();
 
  }
 
